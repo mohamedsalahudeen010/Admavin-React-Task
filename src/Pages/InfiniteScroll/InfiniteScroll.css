@@ -1,0 +1,10 @@
+.infinite{
+    padding-top: 5rem;
+}
+.infinite-scroll{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 1rem;
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.common-Nav{
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(45, 45, 43, 0.455);
+    position:fixed;
+    top: 0px;
+    left: 0;
+    width:100vw;
+    z-index: 2;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.597),rgba(184, 182, 182, 0.68));
+   
+    
+}
+.common-nav-left{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.common-nav-left>.common-nav-list>ul>li{
+   margin-left: 0.5rem;
+}
+
+
+
+.common-nav-list{
+    flex: 20;
+    margin-left: 40%;
+    cursor: pointer;
+    position: relative;
+}
+
+.common-nav-list>ul{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    font-weight: bold;
+    font-size:1.2rem;
+   color: black;
+}
+
+.common-nav-list>ul>li:hover{
+    cursor: pointer;
+    color: rgb(18, 7, 103);
+    font-size:1.4rem;
+    }
+
+.common-nav-left>.common-nav-list{
+
+    margin-left: 0rem;
+   
+}
+
+.common-nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 1rem;
+    font-weight: 400;
+    text-align: right;
+   margin: 2rem;
+}
+.common-nav-right>.common-nav-list{
+    margin-left: 0rem;
+    text-align: right;
+    width: 100%;
+  
+}
+.common-nav-right>.common-nav-list>ul{
+    float: right;
+}
+
+.common-list{
+    position: absolute;
+    margin-top: 17rem;
+   text-align: center;
+   display: none;
+   right: 2%;
+}
+
+

@@ -1,0 +1,40 @@
+
+.main-list-1{
+margin: 1rem;
+position: fixed;
+left: 5rem;
+padding: 2rem;
+margin-top: 5rem;
+}
+.main-list-2{
+  margin: 1rem;
+position: fixed;
+left: 22rem;
+top: 0;
+padding: 2rem;
+margin-top: 5rem;
+}
+.main-list-3{
+margin: 1rem;
+position: fixed;
+left: 38rem;
+top: 0;
+padding: 2rem;
+margin-top: 5rem;
+}
+.main-list-4{
+  margin: 1rem;
+  position: fixed;
+  left: 55rem;
+  top: 0;
+  padding: 2rem;
+  margin-top: 5rem;
+  }
+.list-item{
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-align: left;
+  background-color: whitesmoke;
+  padding: 0.5rem 5rem 0.5rem 1rem;
+}

@@ -1,0 +1,52 @@
+
+.main-bucket{
+   display: flex;
+justify-content:center;
+ align-items:center; 
+ height: 100vh;
+ flex-direction: row;
+}
+.bucket1 {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    flex-flow: 1;
+    width: 20rem;
+    
+  }
+.bucket2 {
+  border: 2px solid #000000;
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 0rem 0rem 1.5rem 1.5rem;
+  flex-flow: 3;
+  width: 20rem;
+}
+.button-group{
+    flex-flow: 2;
+}
+.button-group>button{
+    padding: 0.2rem 1rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.button-group>button:hover{
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.3rem;
+}
+.btn-add{
+    background-color: rgba(21, 167, 5, 0.753);
+    color: #000000;
+}
+.btn-remove{
+    background-color: rgb(155, 39, 39);
+    color: #000000;
+}
+.check-box {
+  border: 1px solid black;
+  list-style: none;
+  padding: 0.5rem;
+  margin: 1rem;
+}

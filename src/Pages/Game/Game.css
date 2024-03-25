@@ -1,0 +1,59 @@
+/* App.css */
+
+.game-container{
+    width: 100%;
+    background-color: rgb(252, 250, 250);
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+.game-box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .game-box {
+    width: 100%;
+    height: 150px;
+    background-color: #d7d5d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+  
+  .game-highlight {
+    background-color: #ff8c00; /* Change highlight color */
+  }
+  
+  .game-score-timer {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    font-weight: bolder;
+  }
+  
+  .game-score-timer>div {
+  text-align: center;
+  }
+
+  .game-reset-btn{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bolder;
+    padding: 0.3rem 1rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+  }
+  .game-reset-btn:hover{
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bolder;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+  }
